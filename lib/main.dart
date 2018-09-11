@@ -17,6 +17,16 @@ class UnitConverterApp extends StatelessWidget {
       title: 'Unit Converter',
       home: Scaffold(
         backgroundColor: Colors.green[100],
+        appBar: AppBar(
+            elevation: 0.0,
+            title: Text(
+              'The Unit Converter',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 30.0,
+              ),
+            ),
+            centerTitle: true),
         body: Center(
           child: Category(
             name: _categoryName,
