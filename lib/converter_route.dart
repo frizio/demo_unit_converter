@@ -20,9 +20,9 @@ class ConverterRoute extends StatefulWidget {
 }
 
 class _ConverterRouteState extends State<ConverterRoute> {
-  final String name;
-  final Color color;
-  final List<Unit> units;
+  final String name = '';
+  final Color color = null;
+  final List<Unit> units = null;
 
   @override
   Widget build(BuildContext context) {

@@ -71,7 +71,7 @@ class _CategoryRouteState extends State<CategoryRoute> {
     final appBar = AppBar(
       elevation: 0.0,
       title: Text(
-        'Unit Converter',
+        'The Unit Converter',
         style: TextStyle(
           color: Colors.black,
           fontSize: 30.0,

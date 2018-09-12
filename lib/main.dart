@@ -10,7 +10,7 @@ class UnitConverterApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'The Unit Converter',
+        title: 'Unit Converter',
         home: CategoryRoute());
   }
 }
