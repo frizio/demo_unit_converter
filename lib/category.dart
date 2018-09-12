@@ -65,7 +65,6 @@ class Category extends StatelessWidget {
     );
   }
 
-  /// Navigates to the [ConverterRoute].
   void _navigateToConverter(BuildContext context) {
     Navigator.of(context).push(MaterialPageRoute<Null>(
       builder: (BuildContext context) {
